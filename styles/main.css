@@ -1,0 +1,23 @@
+h1{
+  color: blueviolet;
+}
+
+header{
+  border: chartreuse 1px solid;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+}
+
+section{
+  border: rgb(0, 89, 255) 1px solid;
+}
+
+aside{
+  border: magenta 1px solid;
+}
+
+footer{
+  border: rgb(208, 255, 0) 1px solid;
+}
