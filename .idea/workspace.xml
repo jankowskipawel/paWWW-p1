@@ -60,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603639340504</updated>
-      <workItem from="1603639342050" duration="9425000" />
+      <workItem from="1603639342050" duration="14398000" />
     </task>
     <servers />
   </component>
@@ -77,5 +77,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="238" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603650444431">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="238" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040/-1440.-1176.1440.2520@0.0.1920.1040" timestamp="1603650444431" />
   </component>
 </project>
