@@ -1,3 +1,48 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*RESET CSS*/
+
 body{
   background-image: url("../img/background-body.png");
   background-color: #cccccc;
@@ -48,21 +93,23 @@ header ul li a{
 }
 
 header ul li a:hover{
-  background: linear-gradient(rgba(122,22,189,1) 33%, rgb(253, 29, 29) 65%, rgb(252, 176, 69) 100%);
+  background: linear-gradient(-210deg, rgba(122,22,189,1) 33%, rgb(253, 29, 29) 65%, rgb(252, 176, 69) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: flow 2s ease-in-out infinite;
+  background-size: 150%;
 }
 
 
 
 section{
-  border: #d6d6d6 1px solid;
+  border: #d6d6d6 2px solid;
+  border-radius: 5px;
   position: absolute;
   top: 100px;
   left: 21%;
   right: 10px;
   background-color: white;
-  height: 1500px;
 }
 
 article {
@@ -70,7 +117,7 @@ article {
   padding: 40px;
 }
 
-article h1{
+article h2{
   margin: 50px 0 0 0;
   font-weight: bold;
   font-size: 21pt;
@@ -81,13 +128,17 @@ article h1{
   -webkit-text-fill-color: transparent;
 }
 
+article p{
+  margin: 20px 0;
+  font-size: 14pt;
+}
+
 .smart-data-img{
   margin: 50px 0;
 }
 
 @media screen and (min-width: 480px) and (max-width:800px) {
   .smart-data-img{display: none}
-  section{height: 1000px}
 }
 
 @keyframes flow {
@@ -101,12 +152,13 @@ article h1{
 }
 
 aside{
-  border: #d6d6d6 1px solid;
+  border: #d6d6d6 2px solid;
+  border-radius: 5px;
   position: absolute;
   top: 100px;
   left: 10px;
   right: 80%;
-  height: 1500px;
+  height: 100px;
   background-color: white;
 }
 
@@ -116,12 +168,38 @@ aside{
 }
 
 footer{
-  border: #d6d6d6 1px solid;
+  border-top: #d6d6d6 2px solid;
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 99.8%;
+  right: 0;
   z-index: 100;
   height: 100px;
-  background-color: dimgray;
+  background-color: white;
+}
+
+.contact p{
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.contact-info{
+  margin: 30px 0;
+}
+
+.social-media-contact{
+  margin: 30px 0;
+}
+
+.social-media-contact img{
+  padding: 0 20px;
+  height: 64px;
+}
+
+.email{
+  animation: flow 7s ease-in-out infinite;
+  background: linear-gradient(-90deg, rgb(139, 22, 189) 33%, rgb(253, 29, 29) 65%, rgb(252, 142, 69) 100%);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
