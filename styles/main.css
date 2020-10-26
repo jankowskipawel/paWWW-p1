@@ -255,3 +255,15 @@ footer img{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+article form input{
+  margin: 15px 5px;
+}
+
+article form label, article form legend{
+  font-weight: bold;
+}
+
+.radio-labels{
+  font-weight: normal;
+}
