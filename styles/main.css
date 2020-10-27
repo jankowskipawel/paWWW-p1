@@ -271,7 +271,7 @@ article form label, article form legend{
 .submit-button{
   font-family: 'Roboto', Arial, sans-serif;
   background-color: white;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 12pt;
   color: #7a7a7a;
   border-radius: 20px;
@@ -279,5 +279,58 @@ article form label, article form legend{
   height: 50px;
   border: 5px solid;
   border-image-slice: 1;
+  transition: 0.2s;
   border-image-source: linear-gradient(-90deg, rgb(139, 22, 189) 33%, rgb(253, 29, 29) 65%, rgb(252, 142, 69) 100%);
+}
+
+.submit-button:hover{
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+tr, th, td{
+  border-collapse: collapse;
+  border: #7a7a7a 1px solid;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+th, .table-date{
+  animation: flow 7s ease-in-out infinite;
+  background: linear-gradient(-90deg, rgb(139, 22, 189) 33%, rgb(253, 29, 29) 65%, rgb(252, 142, 69) 100%);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  width: 250px;
+  border: #7a7a7a 1px solid;
+}
+
+tr{
+  border:none;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  /*
+  border: #7a7a7a solid 1px;
+  */
+}
+
+#empty-th{
+  border: none;
+}
+
+.info{
+  height: 16px;
+  margin-left: 3px;
+}
+
+.tooltip{
+  background-color:#FFFFFF;
+  color:#7a7a7a;
+  text-decoration:none
 }
