@@ -26,7 +26,6 @@
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stat.html" beforeDir="false" afterPath="$PROJECT_DIR$/stat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <workItem from="1603639342050" duration="17360000" />
       <workItem from="1603706907055" duration="13270000" />
       <workItem from="1603820399557" duration="5253000" />
-      <workItem from="1603906760743" duration="7996000" />
+      <workItem from="1603906760743" duration="8712000" />
     </task>
     <servers />
   </component>
