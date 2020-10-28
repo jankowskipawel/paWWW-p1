@@ -20,9 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b67aef-d415-4334-a450-22f99a920320" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/CEO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/CFO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/office-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/office-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/office-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/office-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/office-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/office-6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stat.html" beforeDir="false" afterPath="$PROJECT_DIR$/stat.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
@@ -73,7 +84,8 @@
       <updated>1603639340504</updated>
       <workItem from="1603639342050" duration="17360000" />
       <workItem from="1603706907055" duration="13270000" />
-      <workItem from="1603820399557" duration="4577000" />
+      <workItem from="1603820399557" duration="5253000" />
+      <workItem from="1603906760743" duration="4388000" />
     </task>
     <servers />
   </component>

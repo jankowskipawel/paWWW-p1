@@ -11,11 +11,11 @@
 <header>
     <a href="index.html"><img alt="Logo" src="img/logo-cale.png" class="header-logo"></a>
     <ul>
-        <li><a href="index.html">STRONA GŁÓWNA</a></li>
-        <li><a href="form.html">FORMULARZ</a></li>
-        <li><a href="stat.html">STATYSTYKI</a></li>
-        <li><a href="gallery.html">GALERIA</a></li>
-        <li><a href="kontakt.html">KONTAKT</a></li>
+        <li><a class="a-header" href="index.html">STRONA GŁÓWNA</a></li>
+        <li><a class="a-header" href="form.html">FORMULARZ</a></li>
+        <li><a class="a-header" href="stat.html">STATYSTYKI</a></li>
+        <li><a class="a-header" href="about-us.html">O NAS</a></li>
+        <li><a class="a-header" href="kontakt.html">KONTAKT</a></li>
     </ul>
 </header>
 <section>
@@ -23,20 +23,20 @@
         <h2>WYPEŁNIJ FORMULARZ</h2>
         <p>Wpełnij ten prosty i krótki formularz, a nasz konsultant skontaktuje się z tobą jak najszybciej, aby dopasować ofertę bezpośrednio do ciebie.</p>
         <form>
-            <label for="phone">Nazwa firmy</label>
+            <label for="phone">Nazwa firmy: </label>
             <input type="tel" id="name" name="name" required>
             <br>
-            <label for="phone">Numer telefonu</label>
+            <label for="phone">Numer telefonu: </label>
             <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}|[0-9]{9}" required>
             <br>
-            <label for="t2">Adres email</label>
+            <label for="t2">Adres email: </label>
             <input type="email" id="t2" name="email" required>
             <br>
-            <label for="n1">Data założenia działalności</label>
+            <label for="n1">Rok założenia działalności: </label>
             <input type="number" required min="1000" max="2020" step="1" id="n1" name="employees"
                    pattern="\d+">
             <br>
-            <label for="t1">Region działalności</label>
+            <label for="t1">Region działalności: </label>
             <input type="text" required id="t1" name="continent" list="l1" required
                    pattern="[Ee]uropa|[Aa]meryka [Pp]ółnocna|[Aa]meryka [Pp]ołudniowa|[Aa]ustralia|[Aa]zja|[Aa]fryka">
             <datalist id="l1">
