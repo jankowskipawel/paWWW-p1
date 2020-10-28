@@ -47,7 +47,7 @@ body{
   background-image: url("../img/background-body.png");
   background-color: #cccccc;
   font-family: 'Roboto', Arial, sans-serif;
-  color: #7a7a7a;
+  color: #515151;
 }
 
 header{
@@ -85,7 +85,7 @@ header ul li a{
   display: inline-block;
   float: left;
   text-decoration: none;
-  color: #7a7a7a;
+  color: #515151;
   font-size: 16pt;
   font-weight: 500;
   margin: 15px 10px;
@@ -209,7 +209,7 @@ footer ul{
 footer ul li a{
   float: left;
   text-decoration: none;
-  color: #7a7a7a;
+  color: #515151;
   font-size: 12pt;
   font-weight: 500;
   margin: 15px 10px;
@@ -282,7 +282,7 @@ article form label, article form legend{
   background-color: white;
   font-weight: normal;
   font-size: 12pt;
-  color: #7a7a7a;
+  color: #515151;
   border-radius: 20px;
   width: 100px;
   height: 50px;
@@ -366,3 +366,5 @@ table{
   border-image-slice: 1;
   border-radius: 20px;
 }
+
+.h6-section{display: none}
